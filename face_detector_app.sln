@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "face_detector_core", "face_detector_core\face_detector_core.pyproj", "{20C5E069-A3C8-432C-8311-07038EB9DA65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C5E069-A3C8-432C-8311-07038EB9DA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C5E069-A3C8-432C-8311-07038EB9DA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E54438D-1090-4241-9002-AA4C4E3A334B}
+	EndGlobalSection
+EndGlobal
