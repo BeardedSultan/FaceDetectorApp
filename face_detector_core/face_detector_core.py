@@ -32,9 +32,10 @@ while True:
     for (x, y, w, h) in face_crdnts:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 1) #image, crdnts, rectangle color, thickness
     
+    #out = cv2.imwrite('imout.png', image)
     out.write(frame)
 
-    cv2.imshow('image', frame) 
+    cv2.imshow('video', frame) 
     if cv2.waitKey(1) & 0xFF == ord('q'):
        break
 
